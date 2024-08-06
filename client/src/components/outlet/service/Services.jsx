@@ -91,7 +91,7 @@ export default function Services() {
       </div>
       <FourthPage />
       <SecondPage />
-      <Projects />
+      {/* <Projects /> */}
     </div>
   );
 }

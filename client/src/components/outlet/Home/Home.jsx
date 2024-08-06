@@ -16,7 +16,7 @@ export default function () {
       <FourthPage />
       <WhyChooseUS/>
       <WorkFlow/>
-      <Projects/>
+      {/* <Projects/> */}
       <Team />
       <Testinomial/>
     </div>

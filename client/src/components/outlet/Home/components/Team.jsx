@@ -13,7 +13,7 @@ export default function Team() {
           <div className="bg-zinc-50 text-gray-700 p-6 rounded-lg flex flex-col items-center">
             <img
               alt="Gauri Singh"
-              src="https://placehold.co/150x150?text=Gauri+Singh"
+              src="https://avatars.githubusercontent.com/gaurisingh73"
               className="rounded-full mb-4 w-32 h-32 object-cover"
             />
             <h4 className="text-xl font-semibold">Gauri Singh</h4>
@@ -24,7 +24,7 @@ export default function Team() {
           <div className="bg-zinc-50 text-gray-700 p-6 rounded-lg flex flex-col items-center">
             <img
               alt="Mayank"
-              src="https://placehold.co/150x150?text=Mayank"
+              src="https://avatars.githubusercontent.com/mkj0019"
               className="rounded-full mb-4 w-32 h-32 object-cover"
             />
             <h4 className="text-xl font-semibold">Mayank Jha</h4>
@@ -33,7 +33,7 @@ export default function Team() {
           <div className="bg-zinc-50 text-gray-700 p-6 rounded-lg flex flex-col items-center">
             <img
               alt="Sharwan Kumar"
-              src="https://placehold.co/150x150?text=Sharwan"
+              src="https://avatars.githubusercontent.com/shrawan7650"
               className="rounded-full mb-4 w-32 h-32 object-cover"
             />
             <h4 className="text-xl font-semibold">Sharwan Kumar</h4>
