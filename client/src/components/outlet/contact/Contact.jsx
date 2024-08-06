@@ -1,14 +1,12 @@
 import React from "react";
+import { TextField, Button } from "@mui/material";
 
 export default function Contact() {
   return (
     <div>
-      <section
-        className="px-2 pt-[100px] py-12 lg:px-12 w-full"
-      >
+      <section className="px-2 pt-[100px] py-12 lg:px-12 w-full">
         <div className="container mx-auto mt-3 lg:mt-7 w-full">
           <div className="flex flex-col md:flex-row justify-between items-start gap-6">
-            {/* Contact Information */}
             <div className="w-full md:w-1/2 lg:w-1/3 space-y-4 px-6 lg:px-0">
               <h2 className="text-3xl md:text-2xl lg:text-3xl font-bold text-blue-600">
                 Contact Information
@@ -58,53 +56,42 @@ export default function Contact() {
                 </p>
 
                 <div>
-                  <label
-                    htmlFor="name"
-                    className="block text-lg font-medium text-gray-700"
-                  >
-                    Name
-                  </label>
-                  <input
-                    type="text"
+                  <TextField
+                    label="Name"
                     name="name"
                     id="name"
-                    placeholder="Name"
                     required
-                    className="mt-1 p-2 block w-full border border-gray-200 bg-gray-100 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                    variant="standard"
+                    fullWidth
+                    margin="normal"
                   />
                 </div>
 
                 <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-lg font-medium text-gray-700"
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
+                  <TextField
+                    label="Email"
                     name="email"
                     id="email"
-                    placeholder="Email"
                     required
-                    className="mt-1 p-2 block w-full border border-gray-200 bg-gray-100 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                    type="email"
+                    variant="standard"
+                    fullWidth
+                    margin="normal"
                   />
                 </div>
 
                 <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-lg font-medium text-gray-700"
-                  >
-                    Message
-                  </label>
-                  <textarea
+                  <TextField
+                    label="Message"
                     name="message"
                     id="message"
-                    placeholder="Message"
                     required
-                    className="mt-1 p-2 block w-full border border-gray-200 bg-gray-100 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                  ></textarea>
+                    multiline
+                    rows={4}
+                    variant="standard"
+                    fullWidth
+                    margin="normal"
+                  />
                 </div>
 
                 <input
@@ -115,12 +102,15 @@ export default function Contact() {
                 />
 
                 <div>
-                  <button
+                  <Button
                     type="submit"
-                    className="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mt-4"
+                    fullWidth
+                    variant="contained"
+                    color="primary"
+                    className="mt-4"
                   >
                     Submit
-                  </button>
+                  </Button>
                 </div>
               </form>
             </div>
