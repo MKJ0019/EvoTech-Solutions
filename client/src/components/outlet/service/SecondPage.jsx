@@ -1,9 +1,13 @@
 import React from "react";
+import time from '../../../assets/bg-img/time.png'
+import user from '../../../assets/bg-img/user.png'
+import creative from '../../../assets/bg-img/creative.png'
+import achievment from '../../../assets/bg-img/achievement.png'
 
 export default function SecondPage() {
   return (
     //  <div>
-    <div className="max-w-4xl lg:h-[82svh] flex justify-center flex-col mx-auto px-4 py-8">
+    <div className="max-w-4xl lg:h-[80svh] mt-24 flex justify-center flex-col mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold text-center text-primary">
         Why choose us
       </h2>
@@ -16,7 +20,7 @@ export default function SecondPage() {
           <img
             undefinedhidden="true"
             alt="time-efficient"
-            src="https://openui.fly.dev/openui/24x24.svg?text=⏱️"
+            src={time}
             className="mb-4"
           />
           <h3 className="text-lg font-semibold text-primary">Time Efficient</h3>
@@ -26,7 +30,7 @@ export default function SecondPage() {
           <img
             undefinedhidden="true"
             alt="user-friendly"
-            src="https://openui.fly.dev/openui/24x24.svg?text=👤"
+            src={user}
             className="mb-4"
           />
           <h3 className="text-lg font-semibold text-primary">User Friendly</h3>
@@ -36,7 +40,7 @@ export default function SecondPage() {
           <img
             undefinedhidden="true"
             alt="creative-designs"
-            src="https://openui.fly.dev/openui/24x24.svg?text=🎨"
+            src={creative}
             className="mb-4"
           />
           <h3 className="text-lg font-semibold text-primary">
@@ -50,7 +54,7 @@ export default function SecondPage() {
           <img
             undefinedhidden="true"
             alt="achievements"
-            src="https://openui.fly.dev/openui/24x24.svg?text=🏆"
+            src={achievment}
             className="mb-4"
           />
           <h3 className="text-lg font-semibold text-primary">Achievements</h3>

@@ -51,12 +51,13 @@ import React from "react";
 import SecondPage from "./SecondPage";
 import FourthPage from "../Home/components/FourthPage";
 import Projects from "./Projects";
+import service from '../../../assets/bg-img/service.png'
 
 export default function Services() {
   return (
     <div>
       <div className="flex lg:h-[90svh] flex-col md:flex-row items-center p-6 bg-background">
-        <div className="md:w-1/2 h-[60svh] flex flex-col p-10 justify-between">
+        <div className="md:w-1/2 h-[60svh] flex flex-col lg:p-10 lg:py-5 md:py-5 py-14 justify-between">
           <div>
             <h2 className="text-2xl font-bold text-primary">Our Services</h2>
             <h1 className="text-4xl pt-5 font-extrabold text-primary">
@@ -83,8 +84,8 @@ export default function Services() {
         <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
           <img
             alt="business-solutions-illustration"
-            src="https://placehold.co/500x400"
-            className="w-full h-auto"
+            src={service}
+            className="w-[600px] h-auto"
           />
         </div>
       </div>

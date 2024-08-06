@@ -6,11 +6,11 @@ import { IoLogoWhatsapp, IoMdCall } from "react-icons/io";
 export default function Footer() {
    const year = new Date().getFullYear()
   return (
-    <div className="bg-gray-50">
+    <div className="bg-zinc-100">
       <footer className="max-w-[90%] mx-auto text-foreground p-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
           <div className="mb-6 w-full md:w-auto md:mb-0">
-            <h2 className="text-xl font-light">EvoTech Solutions</h2>
+            <h2 className="text-xl font-light">AeroWeb Solutions</h2>
             <p className="text-gray-500">
               Trusted in more than 42 customers.<br/>
               Follow us on social media.
@@ -44,6 +44,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link to="/meet" className="text-muted-foreground hover:text-primary">
+                  Meet With Us
+                </Link>
+              </li>
+              <li>
                 <Link to="/about" className="text-muted-foreground hover:text-primary">
                   About Us
                 </Link>
@@ -59,7 +64,7 @@ export default function Footer() {
                 placeholder="Your email here.."
                 className="border border-border rounded-l-md p-2 w-full md:w-auto flex-grow"
               />
-              <button className="bg-primary text-primary-foreground hover:bg-primary/80 rounded-r-md p-2 w-full md:w-auto">
+              <button className="bg-gray-300 text-primary-foreground hover:bg-primary/80 rounded-r-md p-2 w-full md:w-auto">
                 Subscribe
               </button>
             </div>
@@ -67,13 +72,13 @@ export default function Footer() {
         </div>
 
         <div className="text-center mt-6 text-muted-foreground">
-          © EvoTech Solutions {year}, All rights reserved.
+          © AeroWeb Solutions {year}, All rights reserved.
         </div>
 
         <div className="flex justify-center space-x-4 mt-4 text-muted-foreground">
-          <Link to="#">Terms</Link>
-          <Link to="#">Privacy</Link>
-          <Link to="#">Cookies</Link>
+          <Link to="/">Terms</Link>
+          <Link to="/">Privacy</Link>
+          <Link to="/">Cookies</Link>
         </div>
       </footer>
     </div>
