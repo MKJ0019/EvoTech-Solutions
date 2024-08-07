@@ -18,8 +18,8 @@ export default function FirstPage() {
         stagger: 0.2,
         ease: "bounce.out",
         duration: 0.9,
-        // repeat: -1, 
-        // repeatDelay: 0, 
+        // repeat: -1,
+        // repeatDelay: 0,
         // yoyo: true,
       }
     );
@@ -32,7 +32,11 @@ export default function FirstPage() {
           Content Marketing Through Digital{" "}
           <div className="bg-blue-500 rounded-xl absolute w-36 h-1"></div>
         </p>
-        <img src={star} alt="" className="absolute h-8 lg:h-16 -right-5" />
+        <img
+          src={star}
+          alt=""
+          className="absolute h-8 lg:h-20 lg:-right-5 md:-right-5 md:top-3 -right-2 top-10 lg:top-3"
+        />
         <h1
           className="text-[60px] mt-8 lg:mt-0 md:mt-0 lg:text-[220px] tracking-widest leading-none font-bold uppercase"
           ref={titleRef}
