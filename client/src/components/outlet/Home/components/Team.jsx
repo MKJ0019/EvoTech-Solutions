@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Team() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center">
-      <section className="py-10 w-full">
+    <div className="min-h-screen flex flex-col relative justify-center items-center">
+      <section className="py-10 z-14 w-full">
         <h2 className="text-3xl font-bold text-center mb-6">Our Team</h2>
         <h3 className="text-2xl pt-4 text-center mb-8">
           Let’s Meet Our <span className="text-primary">AeroWeb Solutions</span>{" "}
@@ -28,7 +28,9 @@ export default function Team() {
               className="rounded-full mb-4 w-32 h-32 object-cover"
             />
             <h4 className="text-xl font-semibold">Mayank Jha</h4>
-            <p className="text-sm text-center">Founder & Full Stack Developer</p>
+            <p className="text-sm text-center">
+              Founder & Full Stack Developer
+            </p>
           </div>
           <div className="bg-zinc-50 text-gray-700 p-6 rounded-lg flex flex-col items-center">
             <img

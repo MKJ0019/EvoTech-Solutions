@@ -1,19 +1,22 @@
 /* Work Pocess */
 @keyframes blink {
-   0%, 100% {
-     opacity: 1;
-   }
-   50% {
-     opacity: 0;
-   }
- }
- 
- .animate-blink {
-   animation: blink 2s ease-in-out;
- }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 2s ease-in-out;
+}
 
 
- /* Cards */
+/* Cards */
 .card {
   background: rgb(237, 236, 236);
   display: flex;
@@ -52,4 +55,73 @@
   color: #f3f3f3;
 }
 
- 
+
+
+
+/* General body and html styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
+  background-color: #f8f8f8;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif; */
+}
+
+/* Gradient background for the app */
+.bg-gradient {
+  background: linear-gradient(to right, #f8f8f8, #ffffff);
+}
+
+/* Loader styles */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  z-index: 1000;
+  /* Ensure loader is above all other content */
+}
+
+/* Smooth overflow handling */
+.flex-grow {
+  flex-grow: 1;
+  overflow: hidden;
+  /* Prevent content overflow */
+}
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Page content transition styles */
+.page-transition {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(1.1);
+}

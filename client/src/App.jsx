@@ -20,7 +20,7 @@ function AppWrapper() {
   const showFooter = location.pathname !== "/meet";
 
   return (
-    <div className="bg-gradient bg-[#f8f8f8] px-3 min-h-screen flex flex-col">
+    <div className="bg-gradient bg-[#f8f8f8] min-h-screen flex flex-col">
       <Navbar />
       <div className="flex-grow">
         <AnimatePresence>
