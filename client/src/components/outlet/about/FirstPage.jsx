@@ -60,7 +60,7 @@ export default function FirstPage() {
                     color: white;
                 }
             </style> */}
-        <div className="grid sm:grid-cols-3 grid-cols-2 text-center sm:gap-8 gap-4">
+        <div className="grid lg:grid-cols-3 grid-cols-2 text-center sm:gap-8 gap-4">
           <div>
             <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">
               Founded
@@ -100,7 +100,7 @@ export default function FirstPage() {
               alt="user"
             />
           </div>
-          <hr className="z-10 absolute top-2/4 w-full bg-gray-200" />
+          {/* <hr className="z-10 absolute top-2/4 w-full bg-gray-200" /> */}
         </div>
         <div className="sm:hidden grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
           <div>
@@ -114,12 +114,6 @@ export default function FirstPage() {
             </p>
           </div>
         </div>
-
-        {/* <style>
-                body.dark-theme .leading-7{
-                    color: white;
-                }
-            </style> */}
 
         <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
           <div className="w-full lg:w-6/12">
@@ -146,21 +140,10 @@ export default function FirstPage() {
             </p>
           </div>
 
-          {/* <style>
-                    body.dark-theme .icol i{
-                       background-color: #111827;
-                       color: white;
-                       padding: 8px;
-                       border-radius: 50%;
-                    }
-                </style> */}
           <div className="w-full lg:w-6/12 icol">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
               {/* <!-- Team Card --> */}
               <div className="flex p-4 shadow-md">
-                <div className="mr-6">
-                  <i className="ri-team-line text-3xl"></i>
-                </div>
                 <div className="">
                   <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">
                     Best Team
@@ -174,9 +157,6 @@ export default function FirstPage() {
 
               {/* <!-- Board Card --> */}
               <div className="flex p-4 shadow-md">
-                <div className="mr-6">
-                  <i className="ri-building-2-line text-3xl"></i>
-                </div>
                 <div className="">
                   <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">
                     Building Startups
@@ -190,9 +170,6 @@ export default function FirstPage() {
 
               {/* <!-- Press Card --> */}
               <div className="flex p-4 shadow-md">
-                <div className="mr-6">
-                  <i className="ri-mail-line text-3xl"></i>
-                </div>
                 <div className="">
                   <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">
                     24/7 Customer Support

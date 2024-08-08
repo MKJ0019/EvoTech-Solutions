@@ -46,12 +46,12 @@
 //   );
 // }
 
-
 import React from "react";
 import SecondPage from "./SecondPage";
 import FourthPage from "../Home/components/FourthPage";
 import Projects from "./Projects";
-import service from '../../../assets/bg-img/service.png'
+import service from "../../../assets/bg-img/service.png";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -73,9 +73,11 @@ export default function Services() {
             business forward and achieve outstanding results.
           </p>
           <div className="mt-6">
-            <button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded-lg mr-4">
-              Get Started
-            </button>
+            <Link to="/meet">
+              <button className="bg-blue-200 px-4 py-2 rounded-lg mr-4">
+                Get Started
+              </button>
+            </Link>
             <button className="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded-lg">
               Learn More
             </button>
