@@ -27,7 +27,7 @@ export default function Footer() {
         service_id: "service_k4h1r6h",
         template_id: "template_ivim1a7",
         template_params: {
-          to_name: "AeroWeb Solutions",
+          to_name: "AeroWeb Labs",
           from_email: email,
         },
       };
@@ -57,7 +57,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
           <div className="mb-6 w-full md:w-auto md:mb-0">
             <Link to="/">
-              <h2 className="text-xl font-light">AeroWeb Solutions</h2>
+              <h2 className="text-xl font-light">AeroWeb Labs</h2>
             </Link>
             <p className="text-gray-500">
               Trusted in more than 72 customers.
@@ -65,16 +65,16 @@ export default function Footer() {
               Follow us on social media.
             </p>
             <div className="flex space-x-4 gap-2 mt-2">
-              <Link to="#" className="text-muted-foreground hover:text-primary">
+              <Link to="https://wa.me/+919508359061" target="_blank" className="text-muted-foreground hover:text-primary">
                 <IoLogoWhatsapp size={30} />
               </Link>
-              <Link to="#" className="text-muted-foreground hover:text-primary">
+              <Link to="https://www.instagram.com/aeroweblabs" target="_blank" className="text-muted-foreground hover:text-primary">
                 <FiInstagram size={30} />
               </Link>
-              <Link to="#" className="text-muted-foreground hover:text-primary">
+              <Link to="https://www.linkedin.com/company/aeroweblabs" target="_blank" className="text-muted-foreground hover:text-primary">
                 <FiLinkedin size={30} />
               </Link>
-              <Link to="#" className="text-muted-foreground hover:text-primary">
+              <Link to="tel:9508359061" className="text-muted-foreground hover:text-primary">
                 <IoMdCall size={30} />
               </Link>
             </div>

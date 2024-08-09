@@ -6,7 +6,6 @@ import achievment from '../../../assets/bg-img/achievement.png'
 
 export default function SecondPage() {
   return (
-    //  <div>
     <div className="max-w-4xl lg:h-[90svh] mt-24 flex justify-center flex-col mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold text-center text-primary">
         Why choose us

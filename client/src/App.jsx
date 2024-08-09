@@ -75,10 +75,11 @@ import ScrollTop from "./components/ScrollTop/ScrollTop";
 import Contact from "./components/outlet/contact/Contact";
 import Meet from "./components/outlet/contact/Meet";
 import ScrollToTopButton from "./components/ScrollTop/ScrollToTopButton"
+import Hiring from "./components/outlet/contact/Hiring";
 
 function AppWrapper() {
   const location = useLocation();
-  const showFooter = location.pathname !== "/meet";
+  const showFooter = !["/meet", "/hiring"].includes(location.pathname);
 
   return (
     <div className="bg-gradient bg-[#f8f8f8] min-h-screen flex flex-col">
@@ -99,6 +100,7 @@ function AppWrapper() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/meet" element={<Meet />} />
+              <Route path="/hiring" element={<Hiring />} />
             </Routes>
           </motion.div>
         </AnimatePresence>

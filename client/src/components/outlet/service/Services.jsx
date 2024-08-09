@@ -12,8 +12,8 @@ export default function Services() {
         <div className="md:w-1/2 h-[60svh] flex flex-col lg:p-10 lg:py-5 md:py-5 py-14 justify-between">
           <div>
             <h2 className="text-2xl font-bold text-primary">Our Services</h2>
-            <h1 className="text-4xl pt-5 font-extrabold text-primary">
-              We Provide Best <span className="text-accent">Business</span>
+            <h1 className="text-5xl pt-5 font-extrabold text-primary">
+              We Provide Best <span className="text-blue-500">Business</span>
               <br />
               Solutions
             </h1>
@@ -30,7 +30,7 @@ export default function Services() {
                 Get Started
               </button>
             </Link>
-            <button className="bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded-lg">
+            <button className="border-2 border-blue-500 text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded-lg">
               Learn More
             </button>
           </div>

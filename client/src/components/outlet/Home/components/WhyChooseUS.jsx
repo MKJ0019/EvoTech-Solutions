@@ -1,12 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Circle from '../../../../assets/bg-img/halfcircle.png'
+import Circle from "../../../../assets/bg-img/halfcircle.png";
 
 export default function WhyChooseUS() {
   return (
     <div>
       <section className="bg-background min-h-screen relative flex flex-col space-y-10 justify-center items-center text-foreground p-4 lg:p-8">
-      <img src={Circle} className="absolute right-[8%] opacity-15 rotate-360 top-[15%]  " alt="" />
+        <img
+          src={Circle}
+          className="absolute right-[8%] opacity-15 rotate-360 top-[15%]  "
+          alt=""
+        />
         <div className="flex flex-col lg:flex-row px-4 z-10 lg:px-24 justify-center items-center space-y-12 lg:space-y-0 lg:space-x-12">
           <div className="lg:w-1/2 space-y-6 lg:space-y-12">
             <h2 className="text-xs lg:text-sm mb-2 lg:mb-4">WHY CHOOSE US</h2>
@@ -55,8 +59,8 @@ export default function WhyChooseUS() {
               <div>
                 <h4 className="text-lg lg:text-xl font-semibold">KEYWORD</h4>
                 <p className="text-sm lg:text-base">
-                  Effective keywords play a crucial role in ensuring the
-                  widest possible reach for any campaign.
+                  Effective keywords play a crucial role in ensuring the widest
+                  possible reach for any campaign.
                 </p>
               </div>
             </div>
@@ -65,13 +69,13 @@ export default function WhyChooseUS() {
 
         <div className="mt-8 flex flex-wrap justify-center space-x-4 w-full px-4 lg:px-20">
           <Link
-            to="#"
+            to="https://www.instagram.com/aeroweblabs" target="_blank"
             className="bg-secondary text-secondary-foreground px-4 py-2 rounded-lg"
           >
             Instagram
           </Link>
           <Link
-            to="#"
+            to="https://www.linkedin.com/company/aeroweblabs" target="_blank"
             className="bg-secondary text-secondary-foreground px-4 py-2 rounded-lg"
           >
             LinkedIn
@@ -81,12 +85,6 @@ export default function WhyChooseUS() {
             className="bg-secondary text-secondary-foreground px-4 py-2 rounded-lg"
           >
             Twitter
-          </Link>
-          <Link
-            to="#"
-            className="bg-secondary text-secondary-foreground px-4 py-2 rounded-lg"
-          >
-            YouTube
           </Link>
         </div>
       </section>
