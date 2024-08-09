@@ -9,12 +9,12 @@ export default function FirstPage() {
           <div className="w-full lg:w-6/12">
             <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">
               Empowering Your Online Presence Discover the{" "}
-              <span className="text-blue-700"> AeroWeb Solutions</span> Difference
+              <span className="text-blue-700"> AeroWeb Labs</span> Difference
               Today!
             </h2>
             <p className="font-normal text-base leading-6 text-gray-600 mt-6 ml-0 lg:ml-1">
               {" "}
-               AeroWeb Solutions is more than a digital agency; we're your
+               AeroWeb Labs is more than a digital agency; we're your
               partner in online success. With a commitment to excellence and a
               passion for innovation, we offer a full suite of services designed
               to elevate your brand and expand your reach. Our team of experts
@@ -68,7 +68,7 @@ export default function FirstPage() {
             <p className="font-normal text-base leading-6 text-gray-600 mt-6">
               {" "}
               Founded by Mayank, who leads  AeroWeb with vision and innovation,
-              ensuring exceptional digital solutions.
+              ensuring exceptional digital Solutions.
             </p>
           </div>
           <div>
@@ -76,8 +76,8 @@ export default function FirstPage() {
               Crafted 162 Websites
             </p>
             <p className="font-normal text-base leading-6 text-gray-600 mt-6">
-               AeroWeb Solutions has successfully crafted over 162 websites,
-              delivering exceptional digital solutions for diverse clients
+               AeroWeb Labs has successfully crafted over 162 websites,
+              delivering exceptional digital Solutions for diverse clients
               worldwide.
             </p>
           </div>
@@ -86,8 +86,8 @@ export default function FirstPage() {
               260 Clients
             </p>
             <p className="font-normal text-base leading-6 text-gray-600 mt-6">
-               AeroWeb Solutions has proudly served over 260 clients, delivering
-              top-notch digital solutions tailored to their unique needs and
+               AeroWeb Labs has proudly served over 260 clients, delivering
+              top-notch digital Solutions tailored to their unique needs and
               driving their online success.
             </p>
           </div>
@@ -108,8 +108,8 @@ export default function FirstPage() {
               260 Clients
             </p>
             <p className="font-normal text-base leading-6 text-gray-600 mt-6">
-               AeroWeb Solutions has proudly served over 260 clients, delivering
-              top-notch digital solutions tailored to their unique needs and
+               AeroWeb Labs has proudly served over 260 clients, delivering
+              top-notch digital Solutions tailored to their unique needs and
               driving their online success.
             </p>
           </div>
@@ -121,8 +121,8 @@ export default function FirstPage() {
               Our <span className="text-blue-700">Mission</span>
             </h2>
             <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">
-              At  AeroWeb Solutions, our mission is to empower businesses and
-              startups with innovative digital solutions that drive growth and
+              At  AeroWeb Labs, our mission is to empower businesses and
+              startups with innovative digital Solutions that drive growth and
               success. We believe in the transformative power of technology and
               design, and we are committed to helping our clients harness this
               power to achieve their goals. Our team of experts is dedicated to
@@ -130,7 +130,7 @@ export default function FirstPage() {
               expertise, and strategic thinking to create impactful online
               experiences. We strive to understand our clients' unique needs and
               objectives, working closely with them to develop tailored
-              solutions that exceed expectations.
+              Solutions that exceed expectations.
             </p>
             <p className="font-normal text-base leading-6 text-gray-600 w-full lg:w-10/12 xl:w-9/12 mt-10">
               With a focus on quality, innovation, and customer satisfaction, we
@@ -150,7 +150,7 @@ export default function FirstPage() {
                   </p>
                   <p className="mt-2 font-normal text-base leading-6 text-gray-600">
                     Our diverse, skilled team is dedicated to crafting
-                    exceptional digital solutions for every client.
+                    exceptional digital Solutions for every client.
                   </p>
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function FirstPage() {
                     Building Startups
                   </p>
                   <p className="mt-2 font-normal text-base leading-6 text-gray-600">
-                    Empowering startups through innovative digital solutions
+                    Empowering startups through innovative digital Solutions
                     that drive growth, engagement, and success in the market.
                   </p>
                 </div>

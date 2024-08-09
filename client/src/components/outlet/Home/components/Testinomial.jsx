@@ -15,7 +15,7 @@ function Testinomial() {
     },
     {
       id: 2,
-      content: `"At AeroWeb Solutions, we understand business needs beyond financial metrics, focusing on the value our solutions add to ensure the best outcomes and promising results for our clients. Our approach integrates comprehensive insights to drive success and foster long-lasting partnerships."`,
+      content: `"At AeroWeb Labs, we understand business needs beyond financial metrics, focusing on the value our solutions add to ensure the best outcomes and promising results for our clients. Our approach integrates comprehensive insights to drive success and foster long-lasting partnerships."`,
       author: "Sharwan Kumar",
       title: "Co-Founder & CFO",
       rating: 5,

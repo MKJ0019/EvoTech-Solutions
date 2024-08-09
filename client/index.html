@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml+jpg" href="./src/assets/logo/AWS.jpg" />
+  <link rel="icon" type="image/svg+xml+jpg" href="./src/assets/logo/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AeroWeb Solutions</title>
 
@@ -49,7 +49,7 @@
     }
   }
   </script>
-
+  <link rel="stylesheet" href="./src/assets/style/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
@@ -68,11 +68,31 @@
     .smooth-scroll {
       scroll-behavior: smooth;
     }
+
+    .loaderbody {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   </style>
 </head>
 
 <body>
-  <div id="root"></div>
+  <div id="root">
+    <div class="ui-abstergo loaderbody">
+      <div class="abstergo-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="ui-text">
+        <div class="ui-dot"></div>
+        <div class="ui-dot"></div>
+        <div class="ui-dot"></div>
+      </div>
+    </div>
+  </div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
 

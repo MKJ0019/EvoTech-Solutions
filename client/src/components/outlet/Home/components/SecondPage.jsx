@@ -5,14 +5,14 @@ import "../../../../assets/style/style.css";
 export default function SecondPage() {
   return (
     <div>
-      <section className="py-12 h-auto lg:h-[770px] bg-background">
+      <section className="py-12 h-auto px-4 lg:h-[770px] bg-background">
         <div className="container mx-auto mt-[6%] flex flex-col space-y-4 text-center lg:text-left">
           <div className="flex flex-col lg:flex-row justify-between lg:space-x-10">
             <h2 className="text-3xl lg:text-6xl font-bold mb-4 text-foreground">
               OUR <br className="hidden lg:block" /> SERVICES
             </h2>
             <p className="w-full lg:w-[40%] lg:-translate-x-[10%] mt-5 mx-auto tracking-widest mb-8">
-              We at AeroWeb Solution, recognize the importance of understanding
+              We at AeroWeb Labs, recognize the importance of understanding
               the customer's decision-making process, which is why we go the
               extra mile to create tailored ad campaigns that maximize reach for
               our clients.

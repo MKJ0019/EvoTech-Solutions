@@ -16,7 +16,7 @@ export default function Navbar() {
         >
           <span className="self-center tracking-tighter text-xl lg:text-3xl font-sans whitespace-nowrap dark:text-white">
             <h3 style={{ textShadow: "0px 3px 7px rgba(0, 0, 0, 0.3)" }}>
-              AeroWeb Solutions
+              AeroWeb Labs
             </h3>
           </span>
         </Link>
@@ -78,7 +78,7 @@ export default function Navbar() {
 
         {/* Mobile menu dropdown */}
         <div
-          className={`fixed top-16 right-0 w-full flex justify-center items-center h-[250px] bg-gray-50 dark:bg-gray-800 transform transition-transform duration-300 ${
+          className={`fixed top-14 right-0 w-full flex justify-center items-center h-[250px] bg-gray-50 dark:bg-gray-800 transform transition-transform duration-300 ${
             isOpen ? "translate-x-0" : "translate-x-full"
           } shadow-md backdrop-blur-lg`}
         >
